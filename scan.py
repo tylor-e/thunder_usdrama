@@ -5,10 +5,11 @@ from drama import DramaDetail
 import subprocess, os, json
 from logger import logger
 import time
+import config
 
 class scan:
     def __init__(self):
-        self.mydir = '/volume1/homes/admin/python/thunder'
+        self.mydir = config.mydir
         self.task_file=self.mydir+'/task.txt'
     
     def dramas_on_page(self):
