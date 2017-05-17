@@ -15,7 +15,7 @@
 
 ### 原理说明
 
-1、脚本抓取字幕组一周排行榜(http://www.zimuzu.tv/html/top/week.html)内容，将本周收藏和浏览最多的剧两榜求交集，即为下载的美剧清单，获取下载链接后调取迅雷远程api加入下载队列；
+1、脚本抓取字幕组一周排行榜( http://www.zimuzu.tv/html/top/week.html )内容，将本周收藏和浏览最多的剧两榜求交集，即为下载的美剧清单，获取下载链接后调取迅雷远程api加入下载队列；
 
 2、若有关注的美剧，可在dramas.py中将剧的id加入到self.watchlist；
 
